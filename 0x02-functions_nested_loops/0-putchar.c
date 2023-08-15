@@ -11,10 +11,12 @@ int main(void)
     int count, size;
 
     size = sizeof(string) / sizeof(int);
+
     for (count = 0; count < size; count++)
     {
         _putchar(string[count]);
     }
+
     _putchar('\n');
     return (0);
 }
